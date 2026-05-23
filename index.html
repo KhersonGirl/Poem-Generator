@@ -1,8 +1,9 @@
 <!doctype html>
 <html lang="en">
   <head>
-      <link rel="stylesheet" href="src/style.css" />
-      <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>">
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Poem Generator</title>
@@ -15,6 +16,7 @@
 
       <form id="poem-generator-form">
         <input
+          id="instructions"
           class="instructions"
           type="text"
           placeholder="Enter a theme for your poem..."
