@@ -1,15 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="src/style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="src/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Poem Generator</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-    <h1>Poem Generator</h1>
+      <h1>Poem Generator</h1>
     </header>
+    <section>
+      <form>
+        <input
+          type="text"
+          placeholder="Enter a theme for your poem..."
+          autofocus
+          required
+          autocomplete="off"
+        />
+        <input type="submit" value="Generate Poem" />
+      </form>
+      <div>Poem will be hier</div>
+    </section>
+    <footer>
+      This AI project was coded by
+      <a href="" target="_blank">Khanina Nataliia</a>
+      and is
+      <a href="">open-sourced on GitHub</a>
+      and
+      <a href="">hosted on Netlify</a>
+    </footer>
+
     <script src="src/index.js"></script>
-</body>
+  </body>
 </html>
