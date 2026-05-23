@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="src/style.css" />
+      <link rel="stylesheet" href="src/style.css" />
+      <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Poem Generator</title>
@@ -12,7 +13,7 @@
         <h1>Poem Generator</h1>
       </header>
 
-      <form>
+      <form id="poem-generator-form">
         <input
           class="instructions"
           type="text"
@@ -23,7 +24,7 @@
         />
         <input class="submit-button" type="submit" value="Generate Poem" />
       </form>
-      <div class="poem">
+      <div class="poem" id="poem">
         Poem will be hier
         <br />
         poem will be hier
