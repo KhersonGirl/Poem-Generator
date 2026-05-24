@@ -25,12 +25,12 @@ h1 {
 }
 
 form {
-  padding: 30px;
+  padding: 30px 10px;
   background-color: white;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   border-radius: 10px;
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 .instructions {
@@ -54,6 +54,20 @@ form {
   padding: 14px 24px;
 }
 
+.hint {
+  line-height: 1.5;
+  opacity: 0.6;
+  font-size: 12px;
+  margin-left: 20px;
+}
+.form-container {
+  background-color: white;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  padding: 15px 20px;
+}
+
 .poem {
   font-size: 16px;
   background-color: #fff;
@@ -61,6 +75,23 @@ form {
   line-height: 2;
   border-left: 3px solid #885df1;
   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+}
+.hidden {
+  display: none;
+}
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
 
 footer {
